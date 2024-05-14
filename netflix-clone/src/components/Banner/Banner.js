@@ -3,7 +3,7 @@ import './banner.css'
 import axios from '../../utils/axios';
 import request from '../../utils/request';
 
-const base_url2 = "https://image.tmdb.org/t/p/original/"
+// const base_url2 = 'https://api.themoviedb.org/3/genre/movie/list?language=en';
 
 const Banner = () => {
   const [movie,setMovie] =useState([]);
@@ -28,8 +28,8 @@ return (
     className="banner"
     style={{
       backgroundSize: "cover",
-      backgroundImage: `url(${base_url2}${movie?.backdrop_path})`, // Here is the correction
-      backgroundPosition: "center center",
+      backgroundImage: `url("https://image.tmdb.org/t/p/original/${movie?.backdrop_path}")`,
+      backgroundPosition: "center",
       backgroundRepeat: "no-repeat"
     }}
   >
