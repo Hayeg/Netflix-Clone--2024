@@ -7,7 +7,7 @@ const RowList = () => {
   return (
     <>
     <Row 
-        title="Neflix Orginals"
+        title="Netflix Orginals"
         fetchUrl={requests.fetchNetflixOriginals}/>
     <Row 
     title="Trending Now"
