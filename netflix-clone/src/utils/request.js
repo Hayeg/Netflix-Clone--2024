@@ -10,6 +10,8 @@ const requests = {
     fetchRomanceMovies: `/discover/movie?api_key=${API_KEY}&with_genres=10749`,
     fetchDocumentaries: `/discover/movie?api_key=${API_KEY}&with_genres=99`,
     fetchUpcomming: `/movie/upcoming?api_key=${API_KEY}&language=eng&page=1`,
+    fetchDramaMovies: `/discover/movie?api_key=${API_KEY}&with_genres=18`,
+    fetchFantasyMovies: `/discover/movie?api_key=${API_KEY}&with_genres=14`,
 };
 export default requests;
 
@@ -40,3 +42,5 @@ export default requests;
 // fetchWarMovies: `/discover/movie?api_key=${API_KEY}&with_genres=10752`,
 // fetchFantasyMovies: `/discover/movie?api_key=${API_KEY}&with_genres=14`,
 // fetchWesternMovies: `/discover/movie?api_key=${API_KEY}&with_genres=37`,
+
+
