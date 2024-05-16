@@ -4,7 +4,7 @@ import axios from '../../utils/axios';
 import request from '../../utils/request';
 
 // const base_url2 = 'https://api.themoviedb.org/3/genre/movie/list?language=en';
-
+// update
 const Banner = () => {
   const [movie,setMovie] =useState([]);
 useEffect(() => {
